@@ -1,0 +1,12 @@
+Error: mkdir_fs /src: directory already exists
+Error: mkdir_fs /notexist/subdir: no such file or directory
+Error: create_fs /src/main.c: file already exists
+11
+Error: write_fs /src/main.c: no enough space
+Hello World
+Error: read_fs /src/none.c: no such file or directory
+src
+main.c
+Error: delete_fs /src/main.c: no such file or directory
+Error: rmdir_fs /nope: no such file or directory
+Error: rmdir_fs /src: directory not empty

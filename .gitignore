@@ -1,0 +1,15 @@
+# Build directories
+/build/
+/debug/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+/build/bin/*
+/debug/bin/*
+mini_fs
+
+# Disk files
+*.img
