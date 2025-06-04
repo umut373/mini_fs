@@ -28,7 +28,7 @@ These will create:
 - `debug/` directory for debug builds, with the executable in `debug/bin/program`.
 - Object files stored under `build/obj/` and `debug/obj/`.
 
-To run the program:
+### To run the program
 ```sh
 make run
 ```
@@ -41,7 +41,7 @@ Alternatively, you can run the program directly using the compiled executable wi
 ./mini_fs <command> <args>
 ```
 
-To check the program:
+### To check the program
 ```sh
 make check
 ```
@@ -49,7 +49,7 @@ This will:
 - Run commands in tests/commands.txt
 - Compare result stored in tests/output.txt with tests/expected_output.txt
 
-To clean all build files:
+### To clean all build files
 ```sh
 make clean
 ```
